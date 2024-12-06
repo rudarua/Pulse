@@ -18,7 +18,7 @@ Pulse is a Nepali-centric media platform designed to promote local content, cele
 1. Clone the repository.
 2. Place all required CSS files in the `styles/` folder.
 3. Add the `icons/` and `thumbnail/` directories for resources.
-4. Open the `index.html` file in a browser to view the platform.
+4. Open the `main.html` file in a browser to view the platform.
 
 ## File Structure
 /styles/
