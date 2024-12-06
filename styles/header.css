@@ -1,0 +1,144 @@
+.header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    right: 6px;
+    left: 6px;
+    top:6px;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(202, 202, 202);
+    z-index: 100;
+    border-radius: 35px;
+}
+.right-section{
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-shrink: 0;
+}
+
+
+.user{
+    height: 50px;
+    width: 80px;
+    margin-right: 20px;
+    border-radius: 25px;
+    background-color: blueviolet;
+    border: none;
+}
+.user:hover{
+    background-color: rgb(89, 23, 151);
+}
+.middle-section{
+    flex: 1;
+    margin-left: 90px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    flex: 1;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(199, 199, 199);
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05)
+}
+.search-bar::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    padding-left: 1px;
+}
+.search-button{
+    border:none;
+    margin-left: -110px;
+    border-radius: 16.5px;
+    background-color: white;  
+}
+.search-button:hover{
+    background-color: rgb(235,235,235);
+}
+.search-icon{
+    height: 33px;
+    border-radius: 16.5px;
+}
+.voice-search-button{
+    border: none;
+    margin-left: 8px;
+    border-radius: 20px;
+    background-color: white;
+}
+.voice-search-button:hover{
+    background-color: rgb(235,235,235);
+}
+.voice-search-icon{
+    height: 24px;
+    padding: 4px;
+
+}
+.create{
+    border-radius: 60px;
+    border: 1px;
+    margin-left: 20px;
+}
+.create:hover{
+    background-color: grey;
+}
+    
+.create-icon{
+    height: 30px;
+    padding: 6px;
+    margin-left: 1px;
+}
+.notification{
+    margin-left: 12px;
+    border-radius: 80px;
+    border: 1px;
+    position: relative;
+}
+.notification:hover{
+    background-color: grey;
+}
+.notification-count{
+    position: absolute;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding-left:6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    right:4px;
+    top:0;
+}
+.notification-icon{
+    height: 30px;
+    padding: 6px;
+}
+.left-section{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.hamburg-menue{
+    height: 40px;
+    margin-left: 24px;
+    margin-right: 16px;
+    
+}
+.hamburg-menue:hover{
+    background-color: rgb(235,235,235);
+}
+.pulse-logo{
+    height: 60px;
+}
